@@ -12,17 +12,13 @@ new Chart(
         labels: myJson.map(row => row.day),
         datasets: [
             {
-            myJson: myJson.map(row => row.amount),
-            data:myJson
+            data: myJson.map(row => row.amount),
             }
         ]
         }
     }
 );
 
-
-    // var chrt = document.getElementById("chart_1");
-    // var chatr_1 = new Chart(chrt, {
         
 
 
