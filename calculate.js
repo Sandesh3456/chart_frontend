@@ -16,7 +16,16 @@ new Chart(
         }
     }
 );
-
+let sum = (prev, cur) => {
+    return prev + cur;
+  }
+// const arr= JSON.parse(myJson);
+// const arrSum = arr.map(row => row.marks);
+console.log("abc")
+const arrSum = myJson.map(row => row.amount);
+const result = arrSum.reduce(sum, 0);
+console.log(arrSum);
+document.getElementById("month_amount").innerHTML=result;
         
 
 
