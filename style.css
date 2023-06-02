@@ -3,57 +3,89 @@
     padding: 0;
 }
 body{
-    background-color: hsl(33, 100%, 98%)
+    background-color: hsl(27, 66%, 92%)
 }
 .back {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: hsl(33, 100%, 98%);
+    background-color: hsl(27, 66%, 92%)
 }
 .container {
-    margin: 10px;
-    padding: 10px 10px 10px 10px;
+    margin-top: 90px;
+    padding: 10px 30px 10px 30px;
     border-radius: 15px 15px 15px 15px;
-    background-color: hsl(33, 100%, 98%);
+    /* background-color: orange; */
 }
 .top{
     font-family:DM sans ;
     color:white;
     font-weight:700;
-    display:block;
-    background-color:hsla(29, 81%, 49%, 0.749); 
+    display:flex;
+    background-color:hsl(10, 79%, 65%); 
     border-radius: 15px 15px 15px 15px;
     margin-top:20px;
     margin-bottom:20px;
-    height:70px;
-    width:500px;
-    padding-left: 30px;
-    padding-top:30px;
-    font-size: 18;
+    height: 70px;
+    width: 500px;
+    padding:30px;
+    align-items: center;
 }
 .side1{
     width:80%;
     display:inline-block;
     float:left;
 }
+#amount{
+    font-size: 35px;
+}
+.side2{
+    width:20%;
+    display:inline-block;
+    float:right;
+}
 .bottom{
     font-family:DM sans ; 
-    background-color:hsl(27, 66%, 92%);
     border-radius: 15px 15px 15px 15px;
     color:black;
-    padding-left:30px;
-    padding-right:30px;
-    padding-top:30px;
-    padding-bottom:30px;
+    padding:30px;
+    background-color:white ;
+    display:flex;
+    flex-direction: column;
 }
 #bottom_title{
-    font-size: 21px;
-    font-weight: 700px;
+    font-size: 30px;
+    font-weight: 700;
 }
-#chart{
+#chart_1{
     padding-top:10px;
     padding-bottom:10px;
-    
+    margin-left:0px;
+    background-color: white;
 }
-
+#canvas {
+    background-color:hsl(27, 66%, 92%) ;
+}
+.bottom_left{
+    width:60%;
+    display:inline-block;
+    background-color:white;
+    float:left;
+    border-radius: 0px 0px 0px 15px;
+    font-family:DM Sans ;
+}
+.bottom_right{
+    width: 40%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    float: right;
+    border-radius: 0px 0px 15px 0px;
+    font-family: DM Sans;
+    padding-top: 15px;
+    text-align: right;
+}
+#month_amount{
+    font-size: 30px;
+    font-weight:700;
+}

@@ -15,20 +15,33 @@
 <div class="back"> 
   <div class="container">
     <div class="top">
-    <div class="side1"> 
-      <div id="balance">My balance</div>
-      <div id="amount">$921.48</div>
-    </div> 
-    <div class="side2">
-      <div id="logo"><img alt ="logo_circle" src="./images/logo.svg"></div>
+      <div class="side1"> 
+        <div id="balance">My balance</div>
+        <div id="amount">$921.48</div>
+      </div> 
+      <div class="side2">
+        <div id="logo"><img alt ="logo_circle" src="./images/logo.svg"></div>
+      </div>
     </div>
-  </div>
     <div class="bottom">
-      <div id="bottom_title">Spending - Last 7 days  </div>
-      <canvas id="chart_1"width="300" height="300">Place Chart Here</canvas>
-      <div id="month_total ">Total this month</div>
-      <div id="month_amount">478.33</div>
-      <div id="parcentage_change">+ 2.4% from last months</div>
+      <div id="bottom_title">
+        Spending - Last 7 days  
+      </div>
+      <canvas id="chart_1" width="50px" height="50px">
+        Place Chart Here
+      </canvas>
+      <hr>
+      <div style="display: block; padding-top: 30px">
+        <div class="bottom_left">
+          <div id="month_total" style = "font-size: 13px">Total this month</div>
+          <div id="month_amount">478.33</div>
+        </div>
+        <div class="bottom_right">
+          <div id="parcentage_change" style = "font-size: 13px; font-weight: 700;" >+ 2.4% </div>
+          <div id="last_months">from last months</div>
+      </div>
+      </div>
+    </div>
     </div>
   </div>
 </div>
