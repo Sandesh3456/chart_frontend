@@ -89,3 +89,9 @@ body{
     font-size: 30px;
     font-weight:700;
 }
+#month_total{
+    font-weight:400;
+}
+#last_months{
+    font-weight:400;
+}
